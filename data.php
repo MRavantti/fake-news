@@ -7,11 +7,11 @@ declare(strict_types=1);
 $data = [
 	'authors' =>
 	[
-		['id' => 1, 'name' => 'Hodor'],
-		['id' => 2, 'name' => 'Bruce Wayne'],
-		['id' => 3, 'name' => 'Rick Sanchez'],
-		['id' => 4, 'name' => 'Bane'],
-		['id' => 5, 'name' => 'Emmett Lathrop "Doc" Brown'],
+		['id' => 1, 'name' => 'Hodor', 'image' => 'assets/images/hodor.png'],
+		['id' => 2, 'name' => 'Bruce Wayne', 'image' => 'assets/images/bruce.png'],
+		['id' => 3, 'name' => 'Rick Sanchez', 'image' => 'assets/images/rick.png'],
+		['id' => 4, 'name' => 'Bane', 'image' => 'assets/images/bane.png'],
+		['id' => 5, 'name' => 'Emmett Lathrop "Doc" Brown', 'image' => 'assets/images/emmet.png'],
 
 	],
 
@@ -28,7 +28,6 @@ $data = [
 			'likeCounter' => 1000000,
 			'author' => 1,
 			'backgroundColor' => '188, 186, 184, 1',
-			'image' => 'assets/images/hodor.png'
 		],
 
 		[
@@ -42,7 +41,6 @@ $data = [
 			'likeCounter' => 500000,
 			'author' => 1,
 			'backgroundColor' => '146, 154, 171, 1',
-			'image' => 'assets/images/hodor.png'
 		],
 
 		[
@@ -54,7 +52,6 @@ $data = [
 			'likeCounter' => 5,
 			'author' => 2,
 			'backgroundColor' => '188, 186, 184, 1',
-			'image' => 'assets/images/bruce.png'
 		],
 
 		[
@@ -67,7 +64,6 @@ $data = [
 			'likeCounter' => 1002,
 			'author' => 2,
 			'backgroundColor' => '146, 154, 171, 1',
-			'image' => 'assets/images/bruce.png'
 		],
 
 		[
@@ -79,7 +75,7 @@ $data = [
 			'likeCounter' => 20,
 			'author' => 3,
 			'backgroundColor' => '188, 186, 184, 1',
-			'image' => 'assets/images/rick.png'
+
 		],
 
 		[
@@ -94,7 +90,6 @@ $data = [
 			'likeCounter' => 30000,
 			'author' => 3,
 			'backgroundColor' => '146, 154, 171, 1',
-			'image' => 'assets/images/rick.png'
 		],
 
 		[
@@ -122,7 +117,6 @@ $data = [
 			'likeCounter' => 37,
 			'author' => 4,
 			'backgroundColor' => '188, 186, 184, 1',
-			'image' => 'assets/images/bane.png'
 		],
 
 		[
@@ -137,7 +131,6 @@ $data = [
 			'likeCounter' => 10000,
 			'author' => 4,
 			'backgroundColor' => '146, 154, 171, 1',
-			'image' => 'assets/images/bane.png'
 		],
 
 		[
@@ -156,7 +149,6 @@ $data = [
 			'likeCounter' => 100,
 			'author' => 5,
 			'backgroundColor' => '188, 186, 184, 1',
-			'image' => 'assets/images/emmet.png'
 		],
 
 		[
@@ -175,7 +167,6 @@ $data = [
 			'likeCounter' => 20000,
 			'author' => 5,
 			'backgroundColor' => '146, 154, 171, 1',
-			'image' => 'assets/images/emmet.png'
 		],
 	]
 ];

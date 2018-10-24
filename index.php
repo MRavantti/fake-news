@@ -39,15 +39,27 @@ require __DIR__. '/functions.php';
 		 <?php foreach ($data['articles'] as $articles): ?>
 
 		 <article style="background-color: rgba(<?= $articles['backgroundColor'] ?>);">
+			 <div class="articleContainer">
+
 				 <h1 class="title"><?= "$articles[title]" ?> </h1>
-				 <p class="contentText"><?= "$articles[content]" ?> </p>
+
+				 <p class="contentText"><?= "$articles[content]" ?> </p><br><br>
+
+				 <p><span class="publishedSpan">Published: </span> <?= "$articles[publishedDate] "?><span class="likesSpan">Likes: </span> <?="$articles[likeCounter]"; ?></p>
+			 </div>
+				 <div class="authorContainer">
 				<?php foreach ($data['authors'] as $author): ?>
+
+
 						<?php if ($articles['author'] === $author['id']): ?>
-							<img class="img" src="<?= $articles['image'] ?>" alt="">
+
+							<a href="#"><img class="img" src="<?= $author['image'] ?>" alt=""></a>
+
 							<p class="authorInfo"><span class="authorSpan">Author: </span><br> <a class="authorLink" href="#"><?= "$author[name]"; ?></a></p>
-						<?php endif; ?>
-				<?php endforeach; ?>
-				<p><span class="publishedSpan">Published: </span> <?= "$articles[publishedDate] "?><span class="likesSpan">Likes: </span> <?="$articles[likeCounter]"; ?></p>
+
+
+						</div>
+				<?php endif; endforeach; ?>
 		 </article>
 	 <?php endforeach; ?>
  </div>
