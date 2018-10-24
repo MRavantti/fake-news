@@ -46,3 +46,133 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*
+==============================================
+Costum styles
+==============================================
+*/
+
+
+body {
+	font-size: 16px;
+	font-family: 'Roboto';
+	letter-spacing: .5px;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(238, 238, 238, 1);
+}
+
+a {
+	text-decoration: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: bold;
+	margin: 10px;
+	font-size: 28px;
+}
+
+p {
+	margin: 5px 0;
+}
+
+/*
+==============================================
+Articles
+==============================================
+*/
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+
+}
+
+article {
+	max-width: 75%;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 8px;
+
+}
+.img {
+	max-height: 100px;
+	border-radius: 100px;
+	margin-left: 85%;
+}
+
+.authorInfo {
+	margin-left: 87%;
+}
+.title {
+}
+
+.authorLink {
+	color: rgba(0, 0, 0, 1);
+}
+
+.authorLink:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+.likesSpan {
+	margin-left: 10px;
+}
+
+/*
+==============================================
+logo
+==============================================
+*/
+
+.logo {
+	background-color: rgba(38, 41, 51, 1);
+	margin: 0;
+	padding: 25px;
+	font-size: 38px;
+	font-weight: normal;
+}
+.logo a{
+	color: rgba(255, 255, 255, 1);
+}
+
+/*
+==============================================
+Navigation
+==============================================
+*/
+
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(38, 41, 51, 1);
+  border-bottom: 3px solid rgba(255, 0, 0, 1);
+  position: sticky;
+  top: 0;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 50px;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 0, 0, 1);
+}

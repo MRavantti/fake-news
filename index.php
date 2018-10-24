@@ -19,31 +19,37 @@ require __DIR__. '/functions.php';
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="assets/stylesheet/.css">
-        <title></title>
+        <link rel="stylesheet" href="assets/stylesheet/main.css">
+        <title>Fake News</title>
     </head>
 	 <header>
-
+		 <h1 class="logo"><a href="#">Fake News</a></h1>
 	 </header>
+	 <nav class="nav">
+	   <ul>
+			<li><a href="#">Hodor</a></li>
+			<li><a href="#">Bruce Wayne</a></li>
+			<li><a href="#">Rick Sanchez</a></li>
+			<li><a href="#">Bane</a></li>
+			<li><a href="#">Emmett Lathrop "Doc" Brown</a></li>
+	   </ul>
+	 </nav>
     <body>
-		 <nav>
-		 	<ul>
-		 		<li><a href="#">Horodr</a></li>
-		 		<li><a href="#">Bruce Wayne</a></li>
-		 		<li><a href="#">Rick Sanchez</a></li>
-		 		<li><a href="#">Bane</a></li>
-		 		<li><a href="#">Emmett Lathrop "Doc" Brown</a></li>
-		 	</ul>
-		 </nav>
-		 <article>
-			 <?php foreach ($data['articles'] as $articles): ?>
-				 <?= "Title: $articles[title] <br><br> $articles[content] <br><br>Published: $articles[publishedDate] Likes: $articles[likeCounter]"; ?>
+		 <div class="container">
+		 <?php foreach ($data['articles'] as $articles): ?>
+
+		 <article style="background-color: rgba(<?= $articles['backgroundColor'] ?>);">
+				 <h1 class="title"><?= "$articles[title]" ?> </h1>
+				 <p class="contentText"><?= "$articles[content]" ?> </p>
 				<?php foreach ($data['authors'] as $author): ?>
-					<?php if ($articles['author'] === $author['id']): ?>
-						<?= "Author: $author[name] <br><br>"; ?>
-					<?php endif; ?>
+						<?php if ($articles['author'] === $author['id']): ?>
+							<img class="img" src="<?= $articles['image'] ?>" alt="">
+							<p class="authorInfo"><span class="authorSpan">Author: </span><br> <a class="authorLink" href="#"><?= "$author[name]"; ?></a></p>
+						<?php endif; ?>
 				<?php endforeach; ?>
-			 <?php endforeach; ?>
+				<p><span class="publishedSpan">Published: </span> <?= "$articles[publishedDate] "?><span class="likesSpan">Likes: </span> <?="$articles[likeCounter]"; ?></p>
 		 </article>
+	 <?php endforeach; ?>
+ </div>
     </body>
 </html>

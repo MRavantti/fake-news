@@ -25,8 +25,10 @@ $data = [
 			hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor, hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor
 			HODOR!',
 			'publishedDate' => date('Y'),
-			'likeCounter' => 100000000,
-			'author' => 1
+			'likeCounter' => 1000000,
+			'author' => 1,
+			'backgroundColor' => '188, 186, 184, 1',
+			'image' => 'assets/images/hodor.png'
 		],
 
 		[
@@ -38,7 +40,9 @@ $data = [
 			Hodor?',
 			'publishedDate' => date('Y'),
 			'likeCounter' => 500000,
-			'author' => 1
+			'author' => 1,
+			'backgroundColor' => '146, 154, 171, 1',
+			'image' => 'assets/images/hodor.png'
 		],
 
 		[
@@ -48,7 +52,9 @@ $data = [
 			one of them.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 5,
-			'author' => 2
+			'author' => 2,
+			'backgroundColor' => '188, 186, 184, 1',
+			'image' => 'assets/images/bruce.png'
 		],
 
 		[
@@ -59,7 +65,9 @@ $data = [
 			Accomplice? I'm gonna tell them the whole thing was your idea.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 1002,
-			'author' => 2
+			'author' => 2,
+			'backgroundColor' => '146, 154, 171, 1',
+			'image' => 'assets/images/bruce.png'
 		],
 
 		[
@@ -69,7 +77,9 @@ $data = [
 			Morty? The answer is: Don't think about it. I wish that shotgun was my penis.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 20,
-			'author' => 3
+			'author' => 3,
+			'backgroundColor' => '188, 186, 184, 1',
+			'image' => 'assets/images/rick.png'
 		],
 
 		[
@@ -82,7 +92,9 @@ $data = [
 			but not something I want for myself. I'm not a cow, I'm a pickle... when I feel like it.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 30000,
-			'author' => 3
+			'author' => 3,
+			'backgroundColor' => '146, 154, 171, 1',
+			'image' => 'assets/images/rick.png'
 		],
 
 		[
@@ -108,7 +120,9 @@ $data = [
 			Speak of the devil, and he shall appear.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 37,
-			'author' => 4
+			'author' => 4,
+			'backgroundColor' => '188, 186, 184, 1',
+			'image' => 'assets/images/bane.png'
 		],
 
 		[
@@ -121,7 +135,9 @@ $data = [
 			ashes Then you have my permission to die.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 10000,
-			'author' => 4
+			'author' => 4,
+			'backgroundColor' => '146, 154, 171, 1',
+			'image' => 'assets/images/bane.png'
 		],
 
 		[
@@ -138,7 +154,9 @@ $data = [
 			pick it up on your way to the mall?",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 100,
-			'author' => 5
+			'author' => 5,
+			'backgroundColor' => '188, 186, 184, 1',
+			'image' => 'assets/images/emmet.png'
 		],
 
 		[
@@ -155,7 +173,9 @@ $data = [
 			It's going to be really hard waiting 30 years before I could talk to you about everything that's happened in the past few days. I'm really gonna miss you, Marty.",
 			'publishedDate' => date('Y'),
 			'likeCounter' => 20000,
-			'author' => 5
+			'author' => 5,
+			'backgroundColor' => '146, 154, 171, 1',
+			'image' => 'assets/images/emmet.png'
 		],
 	]
 ];
