@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
 blockquote::before, blockquote:after,
 q:before, q::after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /*
@@ -97,9 +97,13 @@ Articles
 article {
 	display: flex;
 	max-width: 75%;
-	padding: 5px;
+	padding: 10px;
 	margin: 10px;
 	border-radius: 8px;
+}
+
+.contentText {
+	margin-bottom: 20px;
 }
 
 .articleContainer {
@@ -107,12 +111,21 @@ article {
 	flex-direction: column;
 }
 
+
+.likesSpan {
+	margin-left: 10px;
+}
+
+/*
+==============================================
+Author
+==============================================
+*/
+
 .authorContainer {
 	margin: 5px 0px 0 20px;
 	text-align: center;
-
 }
-
 
 .img {
 	max-height: 100px;
@@ -128,10 +141,6 @@ article {
 
 .authorLink:hover {
 	color: rgba(255, 0, 0, 1);
-}
-
-.likesSpan {
-	margin-left: 10px;
 }
 
 /*
@@ -158,30 +167,30 @@ Navigation
 */
 
 .nav {
-  width: 100%;
-  height: 50px;
-  background-color: rgba(38, 41, 51, 1);
-  border-bottom: 3px solid rgba(255, 0, 0, 1);
-  position: sticky;
-  top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(38, 41, 51, 1);
+	border-bottom: 3px solid rgba(255, 0, 0, 1);
+	position: sticky;
+	top: 0;
 }
 
 .nav ul {
-  display: flex;
-  margin: 0;
-  padding: 0 50px;
+	display: flex;
+	margin: 0;
+	padding: 0 50px;
 }
 
 .nav ul li a {
-  display: block;
-  padding: 0 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 50px;
-  color: rgba(255, 255, 255, 1);
+	display: block;
+	padding: 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 50px;
+	color: rgba(255, 255, 255, 1);
 }
 
 .nav a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: rgba(255, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.2);
+	color: rgba(255, 0, 0, 1);
 }
