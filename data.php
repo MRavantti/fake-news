@@ -24,7 +24,7 @@ $data = [
 			hodor hodor hodor hodor hodor hodor hodor hodor? hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor
 			hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor, hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor
 			HODOR!',
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('10 Jan 2011'),
 			'likeCounter' => 1000000,
 			'author' => 1,
 			'backgroundColor' => '188, 186, 184, 1',
@@ -37,7 +37,7 @@ $data = [
 			hodor hodor hodor hodor, hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor.
 			hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor hodor,
 			Hodor?',
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('26 Jun 2010'),
 			'likeCounter' => 500000,
 			'author' => 1,
 			'backgroundColor' => '146, 154, 171, 1',
@@ -48,7 +48,7 @@ $data = [
 			'content' => "The first time I stole so that I wouldn't starve, yes. I lost many assumptions about the simple nature
 			of right and wrong. And when I traveled I learned the fear before a crime and the thrill of success. But I never became
 			one of them.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('21 Nov 2010'),
 			'likeCounter' => 5,
 			'author' => 2,
 			'backgroundColor' => '188, 186, 184, 1',
@@ -60,7 +60,7 @@ $data = [
 			And when I traveled I learned the fear before a crime and the thrill of success. But I never became one of them.
 			Hero can be anyone. Even a man knowing something as simple and reassuring as putting a coat around a young boy shoulders to let him know the world hadn't ended.
 			Accomplice? I'm gonna tell them the whole thing was your idea.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('03 Apr 2012'),
 			'likeCounter' => 1002,
 			'author' => 2,
 			'backgroundColor' => '146, 154, 171, 1',
@@ -71,7 +71,7 @@ $data = [
 			'content' => "A price for everything. It's a figure of speech, Morty! They're bureaucrats! I don't respect them.
 			Just keep shooting, Morty! You have no idea what prison is like here! What about the reality where Hitler cured cancer,
 			Morty? The answer is: Don't think about it. I wish that shotgun was my penis.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('28 Jun 2017'),
 			'likeCounter' => 20,
 			'author' => 3,
 			'backgroundColor' => '188, 186, 184, 1',
@@ -86,7 +86,7 @@ $data = [
 			and when I don't like something about the world, I change it. And I don't think going to a rented office in a strip mall to listen to some agent of averageness explain which
 			words mean which feelings has ever helped anyone do anything. I think it's helped a lot of people get comfortable and stop panicking, which is a state of mind we value in the animals we eat,
 			but not something I want for myself. I'm not a cow, I'm a pickle... when I feel like it.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('20 Dec 2015'),
 			'likeCounter' => 30000,
 			'author' => 3,
 			'backgroundColor' => '146, 154, 171, 1',
@@ -94,6 +94,7 @@ $data = [
 
 		[
 			'title' => 'How I became Bane!',
+
 			'content' => "So you came back to die with your city!
 			I'm Gotham's reckoning. It'll end the ball of damns you've all been living on. A necessary evil.
 			It will be extremely painful... for you
@@ -113,7 +114,7 @@ $data = [
 			Do you feel in charge?
 			You fight like a younger man, there's nothing held back. It's admirable, but mistaken.
 			Speak of the devil, and he shall appear.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('22 Jul 2012'),
 			'likeCounter' => 37,
 			'author' => 4,
 			'backgroundColor' => '188, 186, 184, 1',
@@ -127,7 +128,7 @@ $data = [
 			I will let them believe that they can survive so that you can watch them climbing over each other to stay in the sun. You can watch me torture an entire city.
 			And then when you've truly understood the depth of your failure, we will fulfill Ra's Al Ghul's destiny. We will destroy Gotham. And then, when that is done, and Gotham is...
 			ashes Then you have my permission to die.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('13 Apr 2012'),
 			'likeCounter' => 10000,
 			'author' => 4,
 			'backgroundColor' => '146, 154, 171, 1',
@@ -145,7 +146,7 @@ $data = [
 			No, I refuse to except the responsibility. My god, do you know what this means? It means that this damn thing doesn't work at all. After I fell off my toilet, I drew this.
 			Welcome to my latest experiment. It's the one I've been waiting for all my life. Listen, this is very important, I forgot my video camera, could you stop by my place and
 			pick it up on your way to the mall?",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('29 sep 1985'),
 			'likeCounter' => 100,
 			'author' => 5,
 			'backgroundColor' => '188, 186, 184, 1',
@@ -163,7 +164,7 @@ $data = [
 			Ahh. So tell me, future boy, who's president of the United States in 1985? I need fuel. Go ahead, quick, get in the car. Maybe you were adopted. You know Marty, I'm gonna be very sad to see you go.
 			You've really mad a difference in my life, you've given me something to shoot for. Just knowing, that I'm gonna be around to se 1985, that I'm gonna succeed in this. That I'm gonna have a chance to travel through time.
 			It's going to be really hard waiting 30 years before I could talk to you about everything that's happened in the past few days. I'm really gonna miss you, Marty.",
-			'publishedDate' => date('Y'),
+			'publishedDate' => strtotime('28 Feb 1989'),
 			'likeCounter' => 20000,
 			'author' => 5,
 			'backgroundColor' => '146, 154, 171, 1',

@@ -53,7 +53,7 @@ require __DIR__. '/functions.php';
 
 			<article style="background-color: rgba(<?= $articles['backgroundColor'] ?>);">
 
-				<!-- Container for each single article -->
+				<!-- Container for each single article with published date and likecounter-->
 
 				<div class="articleContainer">
 
@@ -63,7 +63,7 @@ require __DIR__. '/functions.php';
 
 					<p>
 						<span class="publishedSpan">Published: </span>
-						<?= "$articles[publishedDate] "?>
+						<?= date('d M Y', $articles['publishedDate'])?>
 						<span class="likesSpan">Likes: </span>
 						<?="$articles[likeCounter]"; ?>
 					</p>
