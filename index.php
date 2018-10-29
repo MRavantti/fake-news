@@ -5,15 +5,10 @@ declare(strict_types=1);
 require __DIR__. '/data.php';
 require __DIR__. '/functions.php';
 
-
-
-// This is the file where you can keep your HTML markup. We should always try to
-// keep us much logic out of the HTML as possible. Put the PHP logic in the top
-// of the files containing HTML or even better; in another PHP file altogether.
-
-
+uSort($data['articles'], 'sortDates')
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,6 +48,7 @@ require __DIR__. '/functions.php';
 
 			<article style="background-color: rgba(<?= $articles['backgroundColor'] ?>);">
 
+
 				<!-- Container for each single article with published date and likecounter-->
 
 				<div class="articleContainer">
@@ -63,7 +59,7 @@ require __DIR__. '/functions.php';
 
 					<p>
 						<span class="publishedSpan">Published: </span>
-						<?= date('d M Y', $articles['publishedDate'])?>
+						<?= date('d M Y', strtotime($articles['publishedDate']))?>
 						<span class="likesSpan">Likes: </span>
 						<?="$articles[likeCounter]"; ?>
 					</p>
@@ -81,6 +77,7 @@ require __DIR__. '/functions.php';
 						<!-- If statement that check the author id and print the corresponding name and picture -->
 
 						<?php if ($articles['author'] === $author['id']): ?>
+
 
 							<a href="#"><img class="img" src="<?= $author['image'] ?>" alt=""></a>
 
