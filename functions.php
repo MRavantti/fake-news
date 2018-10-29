@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 /**
- * [sortDates sorts dates with a descending order]
- * @param  array $a [description]
- * @param  array $b [description]
- * @return int      [description]
+ * [sortDates sorts by dates with a descending order]
+ * @param  array $a
+ * @param  array $b
+ * @return int
  */
 
 function sortDates(array $a,array $b): int
