@@ -6,7 +6,7 @@
 
 The first assignment to create a website with articles e.g. Fake news for the php class.
 
-###### the criterias for the assignment:
+##### The criterias for the assignment:
 - To create a newsfeed containing 5 different authors, each contributes with 2 articles
 - The project should use the following PHP functionality: Variables, Multiple data types , Arrays, Functions, Loops (for, while or foreach), Concatenation Output (echo, print etc.)
 - The project should be written in PHP, HTML, CSS and JavaScript only.
