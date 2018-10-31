@@ -17,7 +17,7 @@ $data = [
 
 		[
 			'title' => 'Hodor',
-			'image' => 'assets/images/articlehodor.jpeg',
+			'image' => 'assets/images/articleHodor.jpeg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/hodor.txt'),
 			'publishedDate' => '10-01-2011',
 			'likeCounter' => 1000000,
@@ -26,7 +26,7 @@ $data = [
 
 		[
 			'title' => 'Hodor!',
-			'image' => 'assets/images/articlehodor2.jpeg',
+			'image' => 'assets/images/articleHodor2.jpeg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/hodoor.txt'),
 			'publishedDate' => '26-6-2010',
 			'likeCounter' => 500000,
@@ -71,7 +71,7 @@ $data = [
 
 		[
 			'title' => 'How I became Bane!',
-			'image' => 'assets/images/articlebane.jpg',
+			'image' => 'assets/images/articleBane.jpg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/origin.txt'),
 			'publishedDate' => '22-7-2012',
 			'likeCounter' => 37,
@@ -80,7 +80,7 @@ $data = [
 
 		[
 			'title' => 'Never Give Up!',
-			'image' => 'assets/images/articlebane2.jpeg',
+			'image' => 'assets/images/articleBane2.jpeg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/neverGiveup.txt'),
 			'publishedDate' => '13-4-2012',
 			'likeCounter' => 10000,
@@ -89,7 +89,7 @@ $data = [
 
 		[
 			'title' => 'I only wanted to find out the truth',
-			'image' => 'assets/images/articledoc.jpg',
+			'image' => 'assets/images/articleDoc.jpg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/truth.txt'),
 			'publishedDate' => '29-9-1985',
 			'likeCounter' => 100,
@@ -98,7 +98,7 @@ $data = [
 
 		[
 			'title' => 'The Doc!',
-			'image' => 'assets/images/articledoc2.jpeg',
+			'image' => 'assets/images/articleDoc2.jpeg',
 			'content' => file_get_contents(__DIR__.'/assets/articles/doc.txt'),
 			'publishedDate' => '28-2-1989',
 			'likeCounter' => 20000,
