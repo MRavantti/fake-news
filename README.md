@@ -29,7 +29,9 @@ Mikael Ravantti
 
 ### Testers:
 - [Isac Larrson](https://github.com/WebDevIsac)
-- [](https://github.com/)
+- [Gustav Svendsen](https://github.com/gsvendsen)
+- [Mattias Rådemar](https://github.com/Raademar?tab=overview&from=2018-09-01&to=2018-09-30)
+
 
 ### License
 
